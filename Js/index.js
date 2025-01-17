@@ -17,3 +17,13 @@ var myName = "John Doe";
 //Variables can be declared with the let keyword
 //Variables can be declared with the const keyword
 //Variables can be declared with the var keyword and then reassigned with the let keyword
+
+// OPERATORS
+// This basicaly the Arithmetic operator like = + - etc
+
+var myAge = 25;
+var myVar = 12;
+myVar = myVar + 20;
+
+
+// -Varibles are runned on the conslol on the web like chrome
