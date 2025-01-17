@@ -58,8 +58,27 @@ myVar = myVar + 20;
 //  }
 
 
- if (2 < 4) {
-    console.log("This is write");
- } else {
-    document.write("Learn more math");
- }
+//  if (2 < 4) {
+//     console.log("This is write");
+//  } else {
+//     document.write("Learn more math");
+//  }
+
+
+//ELSEIF
+
+var myAge = 19;
+
+if (myAge > 30) {
+
+    document.write("Your above 30")
+} else if(myAge > 20) {
+
+    document.write("Your above 20")
+}
+else if(myAge > 10){
+    document.write("Your above 10");
+}
+else {
+    document.write("Your more years for you");
+}
