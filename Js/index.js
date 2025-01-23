@@ -67,18 +67,31 @@ myVar = myVar + 20;
 
 //ELSEIF
 
-var myAge = 19;
+// var myAge = 19;
 
+// if (myAge > 30) {
+
+//     document.write("Your above 30")
+// } else if(myAge > 20) {
+
+//     document.write("Your above 20")
+// }
+// else if(myAge > 10){
+//     document.write("Your above 10");
+// }
+// else {
+//     document.write("Your more years for you");
+// }
+
+
+var myAge = 21;
 if (myAge > 30) {
-
-    document.write("Your above 30")
-} else if(myAge > 20) {
-
-    document.write("Your above 20")
+    document.write("You are over 30")
+}else if (myAge > 20){
+    document.write("You are over 20")
+}else if (myAge > 10){
+    document.write("you are over 10")
+} else{
+    document.write("You are under 10")
 }
-else if(myAge > 10){
-    document.write("Your above 10");
-}
-else {
-    document.write("Your more years for you");
-}
+   
