@@ -84,14 +84,38 @@ myVar = myVar + 20;
 // }
 
 
-var myAge = 21;
-if (myAge > 30) {
-    document.write("You are over 30")
-}else if (myAge > 20){
-    document.write("You are over 20")
-}else if (myAge > 10){
-    document.write("you are over 10")
-} else{
-    document.write("You are under 10")
-}
+// var myAge = 21;
+// if (myAge > 30) {
+//     document.write("You are over 30")
+// }else if (myAge > 20){
+//     document.write("You are over 20")
+// }else if (myAge > 10){
+//     document.write("you are over 10")
+// } else{
+//     document.write("You are under 10")
+// }
    
+
+// LOGIC OPERATORS
+// WITH && means "and" 
+//  var myAge = 15;
+ 
+//  if (myAge >= 18 && myAge <= 30) {
+//     document.write("You can come bro");
+    
+//  }else{
+//     document.write("Your not coming to the party");
+//  }
+
+
+ var myAge = 15;
+ 
+ if (myAge >= 18 || myAge <= 30) {
+   
+    document.write("Your not coming to the party");
+    
+ }else{
+    document.write("You can come bro");
+ }
+
+
