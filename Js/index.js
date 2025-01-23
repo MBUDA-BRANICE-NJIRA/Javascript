@@ -108,14 +108,25 @@ myVar = myVar + 20;
 //  }
 
 
- var myAge = 15;
+//  var myAge = 15;
  
- if (myAge >= 18 || myAge <= 30) {
+//  if (myAge >= 18 || myAge <= 30) {
    
-    document.write("Your not coming to the party");
+//     document.write("Your not coming to the party");
     
- }else{
-    document.write("You can come bro");
- }
+//  }else{
+//     document.write("You can come bro");
+//  }
+
+
+// LOOPS
+// WHile Loops
+
+var myAge = 9;
+while (myAge < 10) {
+    console.log("Your less tham 10");
+    age++;
+}
+document.write("You are amazind bro and over 10");
 
 
