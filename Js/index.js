@@ -7,7 +7,6 @@
 //Javascript is always written in lowercase
 //Evey statement always ends wth a semi collon
 
-
 //Variables
 var myAge = 25;
 var myName = "John Doe";
@@ -25,14 +24,12 @@ var myAge = 25;
 var myVar = 12;
 myVar = myVar + 20;
 
-
 // -Varibles are runned on the conslol on the web like chrome
 
 //BOOLEAN
 //This is a true or false value
 // eg. 5 < 3
 //This is a false value
-
 
 //IF STATEMENTS
 // var iLikemeat = true;
@@ -42,7 +39,6 @@ myVar = myVar + 20;
 //     document.write('Your like vegatables');
 
 // }
-
 
 // var iLoveYou = true;
 //  if (false) {
@@ -57,13 +53,11 @@ myVar = myVar + 20;
 //     document.write("Learn more math");
 //  }
 
-
 //  if (2 < 4) {
 //     console.log("This is write");
 //  } else {
 //     document.write("Learn more math");
 //  }
-
 
 //ELSEIF
 
@@ -83,7 +77,6 @@ myVar = myVar + 20;
 //     document.write("Your more years for you");
 // }
 
-
 // var myAge = 21;
 // if (myAge > 30) {
 //     document.write("You are over 30")
@@ -94,39 +87,50 @@ myVar = myVar + 20;
 // } else{
 //     document.write("You are under 10")
 // }
-   
 
 // LOGIC OPERATORS
-// WITH && means "and" 
+// WITH && means "and"
 //  var myAge = 15;
- 
+
 //  if (myAge >= 18 && myAge <= 30) {
 //     document.write("You can come bro");
-    
+
 //  }else{
 //     document.write("Your not coming to the party");
 //  }
 
-
 //  var myAge = 15;
- 
+
 //  if (myAge >= 18 || myAge <= 30) {
-   
+
 //     document.write("Your not coming to the party");
-    
+
 //  }else{
 //     document.write("You can come bro");
 //  }
-
 
 // LOOPS
 // WHile Loops
 
-var myAge = 9;
-while (myAge < 10) {
-    console.log("Your less tham 10");
-    age++;
-}
-document.write("You are amazind bro and over 10");
+// var myAge = 5;
+// while (myAge < 10) {
+//     console.log("Your less tham 10");
+//     age++;
+// }
+// document.write("You are amazind bro and over 10");
 
+// FOR LOOP
+// for (i = 0; i < 10; i++) {
+//   console.log(i);
+//   if (i == 7) {
+//     break;
+//   }
+// }
+// console.log("I have broken the loop")
 
+// functions
+
+// 
+var a = 10;
+var b = 30;
+console.log(a + b);
