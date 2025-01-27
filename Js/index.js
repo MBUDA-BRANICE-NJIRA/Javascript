@@ -131,6 +131,42 @@ myVar = myVar + 20;
 // functions
 
 // 
-var a = 10;
-var b = 30;
-console.log(a + b);
+function getAverage(a,b,c){
+   
+    var average = (a + b + c) /2;
+    console.log(average);
+    
+}
+getAverage(7,13,10);  //There are different tpes of functions we have the 
+// 1.arrow function
+//2.Normal functions
+//3.Function declaratio
+//4.Function Expression
+//5.Anonymouse Function
+//6.Emedietely invoked function
+//7.Generator
+//8.Callback functions
+//9.Higher order functions
+//10.Constructor
+
+
+// working with Numbers 
+// var a = 50;
+// var b = 5;
+// console.log(a + b);
+
+
+var a = "apple";
+var b = 5;
+
+if (isNaN(a)) {
+    console.log("a is not a number bro");
+} else {
+    console.log("This the end result of the (a * b)");
+}
+
+
+
+
+
+
