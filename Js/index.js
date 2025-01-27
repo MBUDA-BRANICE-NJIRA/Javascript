@@ -131,13 +131,13 @@ myVar = myVar + 20;
 // functions
 
 // 
-function getAverage(a,b,c){
+// function getAverage(a,b,c){
    
-    var average = (a + b + c) /2;
-    console.log(average);
+//     var average = (a + b + c) /2;
+//     console.log(average);
     
-}
-getAverage(7,13,10);  //There are different tpes of functions we have the 
+// }
+// getAverage(7,13,10);  //There are different tpes of functions we have the 
 // 1.arrow function
 //2.Normal functions
 //3.Function declaratio
@@ -156,19 +156,33 @@ getAverage(7,13,10);  //There are different tpes of functions we have the
 // console.log(a + b);
 
 
-var a = "apple";
-var b = 5;
+// var a = "apple";
+// var b = 5;
 
-if (isNaN(a)) {
-    console.log("a is not a number bro");
-} else {
-    console.log("This the end result of the (a * b)");
-}
+// if (isNaN(a)) {
+//     console.log("a is not a number bro");
+// } else {
+//     console.log("This the end result of the (a * b)");
+// }
 
 //STRINGS
 //Strings are always in double quates 
-var myString = "I love studying Javascript";
-console.log(myString);
+// var myString = "I love studying Javascript";
+// console.log(myString);
+
+
+//OBJECTS
+
+var myCar = new Object();
+myCar.maxSpeed  = "100KM/Hr";
+myCar.drive = "Ojuang";
+console.log(myCar.maxSpeed);
+
+
+
+
+
+
 
 
 
