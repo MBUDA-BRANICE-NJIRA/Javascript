@@ -165,6 +165,12 @@ if (isNaN(a)) {
     console.log("This the end result of the (a * b)");
 }
 
+//STRINGS
+//Strings are always in double quates 
+var myString = "I love studying Javascript";
+console.log(myString);
+
+
 
 
 
