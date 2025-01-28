@@ -197,12 +197,32 @@ myCar.drive = function(){
 
  //Short hand notation
 
- var myCar2 ={
-    maxSpeed : 50,driver : "Njira", drive: function() {
-        console.log("The new driving");
-        
+ var myCar2 = {
+    maxSpeed : 50,
+    driver : "Njira", 
+    drive: function(speed, time) {
+        console.log("The new driving skills");
     }
  };
+ console.log(myCar2.maxSpeed);
+ myCar2.drive();
+ 
+ //THIS KEYWORD
+console.log(this);
+///......................///
+var myCar3 = {
+    maxSpeed : 70,
+    driver : "Branice", 
+    drive: function() {               ///This is to give more info about the object.
+        console.log(this);              ///Its writen in consol.log (this)
+    }
+ };
+ console.log(myCar3.maxSpeed);
+ myCar3.drive();
+
+
+
+
 
 
 
