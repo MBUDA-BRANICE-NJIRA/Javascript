@@ -8,8 +8,8 @@
 //Evey statement always ends wth a semi collon
 
 //Variables
-var myAge = 25;
-var myName = "John Doe";
+// var myAge = 25;
+// var myName = "John Doe";
 //Variables are used to store values in Javascript
 //Variables are declared with the var keyword
 //Variables can be reassigned with the var keyword
@@ -20,9 +20,9 @@ var myName = "John Doe";
 // OPERATORS
 // This basicaly the Arithmetic operator like = + - etc
 
-var myAge = 25;
-var myVar = 12;
-myVar = myVar + 20;
+// var myAge = 25;
+// var myVar = 12;
+// myVar = myVar + 20;
 
 // -Varibles are runned on the conslol on the web like chrome
 
@@ -180,35 +180,35 @@ myVar = myVar + 20;
 // console.log(myCar.drive);
 
 
-var myArray = new Array();
-myArray[0] = 8;
-myArray[1] = "Heloo";
+// var myArray = new Array();
+// myArray[0] = 8;
+// myArray[1] = "Heloo";
 
-var myCar = new Object();   //This the method of asignng properties to an object..
-myCar.speed = 50;
-myCar.drive = "Omondi";
-console.log(myCar.drive);
+// var myCar = new Object();   //This the method of asignng properties to an object..
+// myCar.speed = 50;
+// myCar.drive = "Omondi";
+// console.log(myCar.drive);
 
-myCar.drive = function(){
-    console.log("new driving");
-};
- myCar.drive();
+// myCar.drive = function(){
+//     console.log("new driving");
+// };
+//  myCar.drive();
 
 
- //Short hand notation
+//  //Short hand notation
 
- var myCar2 = {
-    maxSpeed : 50,
-    driver : "Njira", 
-    drive: function(speed, time) {
-        console.log("The new driving skills");
-    }
- };
- console.log(myCar2.maxSpeed);
- myCar2.drive();
+//  var myCar2 = {
+//     maxSpeed : 50,
+//     driver : "Njira", 
+//     drive: function(speed, time) {
+//         console.log("The new driving skills");
+//     }
+//  };
+//  console.log(myCar2.maxSpeed);
+//  myCar2.drive();
  
  //THIS KEYWORD
-console.log(this);
+// console.log(this);
 ///......................///
 // var myCar3 = {
 //     maxSpeed : 70,
@@ -246,14 +246,21 @@ console.log(this);
 
 //DATE OBJECT
 
-var myDate = new Date();
-console.log(myDate);            //Javascript in built Dates 
+// var myDate = new Date();
+// console.log(myDate);            //Javascript in built Dates 
 
-//For past Dates 
-var myPastDate = new Date(2000 , 11 ,13);// Follow this rule
-var myFutureDate = new Date(2030 , 11 ,13);//Date month day time
-console.log(myPastDate);
-console.log(myFutureDate);
+// //For past Dates 
+// var myPastDate = new Date(2000 , 11 ,13);// Follow this rule
+// var myFutureDate = new Date(2030 , 11 ,13);//Date month day time
+// console.log(myPastDate);
+// console.log(myFutureDate);
+
+
+//DOCUMENT OBJECT MODEL (DOM)
+//TRAVERISNG THE DOM
+
+
+
 
 
 

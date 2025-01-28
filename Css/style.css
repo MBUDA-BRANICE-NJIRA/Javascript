@@ -1,6 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .header{
     color: gray;
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
     text-align: center;
+}
+h1{
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    margin-top: 20px;
+}
+h3{
+    background-color: aquamarine;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+p{
+    text-align: center;
+    padding: 10px;
+    background-color: gray;
 }
