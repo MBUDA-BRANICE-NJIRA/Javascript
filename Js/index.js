@@ -173,10 +173,38 @@ myVar = myVar + 20;
 
 //OBJECTS
 
-var myCar = new Object();
-myCar.maxSpeed  = "100KM/Hr";
-myCar.drive = "Ojuang";
-console.log(myCar.maxSpeed);
+// var myCar = new Object();
+// myCar.maxSpeed  = "100KM/Hr";
+// myCar.drive = "Ojuang";
+// console.log(myCar.maxSpeed);
+// console.log(myCar.drive);
+
+
+var myArray = new Array();
+myArray[0] = 8;
+myArray[1] = "Heloo";
+
+var myCar = new Object();   //This the method of asignng properties to an object..
+myCar.speed = 50;
+myCar.drive = "Omondi";
+console.log(myCar.drive);
+
+myCar.drive = function(){
+    console.log("new driving");
+};
+ myCar.drive();
+
+
+ //Short hand notation
+
+ var myCar2 ={
+    maxSpeed : 50,driver : "Njira", drive: function() {
+        console.log("The new driving");
+        
+    }
+ };
+
+
 
 
 
