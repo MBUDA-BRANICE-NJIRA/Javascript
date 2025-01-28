@@ -224,24 +224,39 @@ console.log(this);
 // This is to help in creating  Object  with many function eg car1,car2 etc
 
 
-var Car = function (maxSpeed, driver) {
-    ///This Used to represent Object
-    this.maxSpeed = maxSpeed;
-    this.driver = driver;
-    this.drive = function (speed, time) {
-        console.log(Speed * time );
-    };
-    this.logDriver = function () {
-        console.log("driver name is " + this.driver);
-    };
-}
-var myCar = new Car (70, "Mbuda");
-var myCar2 = new Car (70, "James");
-var myCar3 = new Car (70, "Bless");
-var myCar4 = new Car (70, "Queen");
+// var Car = function (maxSpeed, driver) {
+//     ///This Used to represent Object
+//     this.maxSpeed = maxSpeed;
+//     this.driver = driver;
+//     this.drive = function (speed, time) {
+//         console.log(speed * time );
+//     };
+//     this.logDriver = function () {
+//         console.log("driver name is " + this.driver);
+//     };
+// }
+// var myCar = new Car (70, "Branice");
+// var myCar2 = new Car (60, "James");
+// var myCar3 = new Car (90, "Blessings");
+// var myCar4 = new Car (100, "Queen");
 
-myCar.drive(20,10);
-myCar3.logDriver();
+// myCar.drive(20,10);
+// myCar3.logDriver();
+
+
+//DATE OBJECT
+
+var myDate = new Date();
+console.log(myDate);            //Javascript in built Dates 
+
+//For past Dates 
+var myPastDate = new Date(2000 , 11 ,13);// Follow this rule
+var myFutureDate = new Date(2030 , 11 ,13);//Date month day time
+console.log(myPastDate);
+console.log(myFutureDate);
+
+
+
 
 
 
