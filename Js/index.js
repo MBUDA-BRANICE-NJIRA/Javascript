@@ -256,8 +256,9 @@
 // console.log(myFutureDate);
 
 
-//DOCUMENT OBJECT MODEL (DOM)
-//TRAVERISNG THE DOM
+//JAVASCRIPT EVENT
+alert("Helloo"); /// Events are just behaviours of website depending withe thhe user view
+// Eg attributes allerts messages//
 
 
 
