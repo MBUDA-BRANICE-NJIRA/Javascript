@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.header{
+/* .header{
     color: gray;
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
@@ -25,4 +25,29 @@ p{
     text-align: center;
     padding: 10px;
     background-color: gray;
+} */
+#content{
+    text-align: center;
+}
+p{
+    padding: 50px;
+    margin: 20px;
+    background-color: rgb(182, 167, 167);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+
+
+}
+
+a{
+    background-color: yellow;
+    text-decoration: none;
+    font-size: larger;
+    text-align: center;
+    margin-left: 650px;
+
+}
+a:hover{
+    background-color: red;
+
 }

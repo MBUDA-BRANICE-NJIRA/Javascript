@@ -257,8 +257,13 @@
 
 
 //JAVASCRIPT EVENT
-alert("Helloo"); /// Events are just behaviours of website depending withe thhe user view
+// alert("Helloo"); /// Events are just behaviours of website depending withe thhe user view
 // Eg attributes allerts messages//
+
+
+
+// onclick event
+
 
 
 
