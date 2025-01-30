@@ -26,8 +26,19 @@ p{
     padding: 10px;
     background-color: gray;
 } */
+
+
 #content{
     text-align: center;
+    width: 400px;
+    padding: 20px;
+    padding-top: 0;
+    margin: auto;
+
+    max-height: 17px;
+    overflow: hidden;
+
+
 }
 p{
     padding: 50px;
